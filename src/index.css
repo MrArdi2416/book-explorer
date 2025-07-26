@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+body {
+  background-color: #f8fafc; /* Replace with your intended bg-background color */
+  color: #64748b;            /* Replace with your intended text-secondary color */
+}
+
+@layer components {
+  .input {
+    border-width: 1px;
+    border-color: #d1d5db;
+    border-radius: 0.25rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+  }
+}
