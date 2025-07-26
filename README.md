@@ -1,46 +1,108 @@
-# Getting Started with Create React App
+# 📚 Book Explorer &nbsp; 
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) 
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-593D88?logo=redux&logoColor=white) 
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A Google Books-powered React app to search, view, and favorite books.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+🔗 [View Deployed App on Render](https://book-explorer-6wmw.onrender.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 🔍 **Multi-field Search**: Search books by title, author, or genre.
+- 📘 **Book Details**: See covers, authors, and descriptions.
+- ❤️ **Favorites**: Add books to your favorites using Redux Toolkit.
+- ⚛️ **Routing**: Navigate across pages with React Router.
+- 🧠 **State Management**: Powered by Redux Toolkit.
+- 🎨 **Tailwind CSS UI**: Clean, responsive design.
+- ⚙️ **TypeScript Support**: Type-safe components and logic.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend**: React + TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: Redux Toolkit
+- **Routing**: React Router DOM
+- **API**: Google Books API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Folder Structure
+<pre> 
+book-explorer/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── BookCard.tsx # Book display component
+│ │ └── SearchForm.tsx # Search form
+│
+│ ├── pages/
+│ │ ├── BookDetailsPage.tsx # Book detail view
+│ │ ├── FavoritesPage.tsx # Saved favorites list
+│ │ ├── LandingPage.tsx # Welcome / intro page
+│ │ └── SearchPage.tsx # Book search results
+│
+│ ├── redux/
+│ │ ├── slices/
+│ │ │ └── favoritesSlice.ts # Favorite state logic
+│ │ └── store.ts # Redux Toolkit store config
+│
+│ ├── App.tsx
+│ └── index.tsx
+├── tailwind.config.js
+├── package.json
+└── tsconfig.json
+ </pre>
+---
 
-### `npm run eject`
+## 🧑‍💻 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 1. Clone the Repository
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/MrArdi2416/book-explorer.git
+cd book-explorer
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 2. Install Dependencies
+Make sure you have Node.js ≥ 16 installed.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+npm install
 
-## Learn More
+### 3. Run the Development Server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm run start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🌐 http://localhost:3000
+
+### 📦 Build for Production
+
+npm run build
+
+serve -s build
+
+### 🌐 Deployment
+
+The app is deployed on Render:
+🔗 https://book-explorer-6wmw.onrender.com
+
+You can also deploy this app to:
+
+  Vercel
+  Netlify
+  GitHub Pages
+
+### 👤 Author
+Dhaval Ardi
+🔗 GitHub - MrArdi2416
+
+💡 Feel free to fork and enhance this app. PRs are welcome!
+
+
